@@ -1,3 +1,4 @@
+## Please find teh Report for the in depth analysis.
 
 Information about the fake news challenge can be found on [FakeChallenge.org](http://fakenewschallenge.org).
 
