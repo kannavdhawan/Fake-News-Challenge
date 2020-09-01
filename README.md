@@ -1,28 +1,7 @@
-# Baseline FNC implementation
 
 Information about the fake news challenge can be found on [FakeChallenge.org](http://fakenewschallenge.org).
 
-This repository contains code that reads the dataset, extracts some simple features, trains a cross-validated model and
-performs an evaluation on a hold-out set of data.
 
-Credit:
-* Byron Galbraith (Github: @bgalbraith, Slack: @byron)
-* Humza Iqbal (GitHub: @humzaiqbal, Slack: @humza)
-* HJ van Veen (GitHub/Slack: @mlwave)
-* Delip Rao (GitHub: @delip, Slack: @dr)
-* James Thorne (GitHub/Slack: @j6mes)
-* Yuxi Pan (GitHub: @yuxip, Slack: @yuxipan)
-
-## Questions / Issues
-Please raise questions in the slack group [fakenewschallenge.slack.com](https://fakenewschallenge.slack.com)
-
-## Getting Started
-The FNC dataset is inlcuded as a submodule and can be FNC Dataset is included as a submodule. You should download the fnc-1 dataset by running the following commands. This places the fnc-1 dataset into the folder fnc-1/
-
-    git submodule init
-    git submodule update
-
-## Useful functions
 ### dataset class
 The dataset class reads the FNC-1 dataset and loads the stances and article bodies into two separate containers.
 
@@ -72,7 +51,7 @@ The ``report_score`` function in ``utils/score.py`` is based off the original sc
 
 This will print a confusion matrix and a final score your classifier. We provide the scores for a classifier with a simple set of features which you should be able to match and eventually beat!
 
-## Results
+## Baseline Results
 
 ### Competition dataset (leaderboard score )
 |               | agree         | disagree      | discuss       | unrelated     |
@@ -82,7 +61,6 @@ This will print a confusion matrix and a final score your classifier. We provide
 |  discuss      |    221        |     7         |   3556        |   680         |
 | unrelated     |    10         |     3         |   358         |   17978       |
 Score: 8761.75 out of 11651.25     (75.20%)
-
 
 ### Hold-out split (for development)
 
