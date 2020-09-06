@@ -1,4 +1,4 @@
-#!/usr/local/env python
+
 """
 Scorer for the Fake News Challenge
  - @bgalbraith
