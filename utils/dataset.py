@@ -1,6 +1,5 @@
 from csv import DictReader
 
-
 class DataSet():
     def __init__(self, name="train", path="fnc-1"):
         self.path = path
