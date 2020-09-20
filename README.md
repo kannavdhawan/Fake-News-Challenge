@@ -1,4 +1,4 @@
-## Please find the Report `Report_Fake_News_Challenge.pdf` for the results obtained and in-depth analysis.
+## Please refer the Report `Report_Fake_News_Challenge.pdf` for the results obtained and in-depth analysis.
 
 Information about the fake news challenge can be found on [FakeChallenge.org](http://fakenewschallenge.org).
 
